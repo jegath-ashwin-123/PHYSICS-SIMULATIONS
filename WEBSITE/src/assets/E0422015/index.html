@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Conservation of Momentum</title>
+  <link rel="stylesheet" href="./3.css">
+
+</head>
+<body>
+<!-- partial:1.partial.html -->
+<canvas id='canvas' width='1200' height='300'></canvas>
+<div id='buttons'>
+	<button id='start'>Start</button>
+</div>
+<div id='inputs'>
+	<table>  
+		<tr>
+			<th></th>
+			<th>Left</th>
+			<th>Right</th>
+		</tr>
+		<tr>
+			<td>Position (m)</td>
+			<td><input class='textEntry' id='pos1' value=0></input></td>
+			<td><input class='textEntry' id='pos2' value=10></input></td>
+		</tr>
+		<tr>
+			<td>Velocity (m/s)</td>
+			<td><input class='textEntry' id='v1' value=5></input></td>
+			<td><input class='textEntry' id='v2' value=-5></input></td>
+		</tr>
+		<tr>
+			<td>Mass (kg)</td>
+			<td><input class='textEntry' id='m1' value=10></input></td>
+			<td><input class='textEntry' id='m2' value=8></input></td>
+		</tr>
+	</table>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'></script><script  src="./2.js"></script>
+
+</body>
+</html>

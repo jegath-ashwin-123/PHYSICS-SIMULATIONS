@@ -1,0 +1,118 @@
+*, html, body {
+    margin: 0;
+    background-color: coral;
+}
+
+.main__container {
+   
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: inherit;
+    justify-content: space-around;
+}
+
+.left__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.right__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left__container__top {
+    display: flex;
+}
+.right__container__advance {
+    display: flex;
+    padding: 20px;
+}
+.right__container__advance__right {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.right__container__advance__left {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#V {
+    padding: 20px;
+    font-size: 300px;
+}
+#equals {
+    font-size: 200px;
+    padding: 20px;
+    padding-top: 10%;
+}
+#I {
+    font-size: 50px;
+    padding: 20px;
+    padding-top: 20%;
+}
+#R {
+    padding: 20px;
+    font-size: 300px;
+}
+div {
+    line-height: 200px;
+    text-align: center;
+    border: 2px dashed #f69c55;
+}
+  
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.line {
+    border-left: 6px solid green;
+    height: 300px;
+    left: 50%;
+    position: relative;
+}
+.btn {
+    height: 50px;
+  width: 100px;
+  background-color: #555;
+  position: absolute;
+
+}
+
+#wrapper {
+    background:rgba(255,255,255,0.4);
+    width:220px;
+    height:100px;
+  }
+  
+  #draggable {
+    display:inline-block;
+    background:#fff;
+    border-radius:5px;
+    line-height:50px;
+    width:220px;
+    text-align:center;
+    height:50px;
+  }
+
+  #mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+  }
+  
+  #mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+  }
